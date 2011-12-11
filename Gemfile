@@ -5,16 +5,17 @@ gem 'sqlite3'
 gem 'gravatar_image_tag'
 gem 'will_paginate', '3.0.2'
 
-group :development do
-  gem 'rspec-rails', '2.0.1'
-  gem 'faker', '0.3.1'
-end
+#group :development do
+#  gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+#  gem 'rspec-rails', '2.0.1'
+#  gem 'faker', '0.3.1'
+#end
 
-group :test do
-  gem 'rspec', '2.0.1'
-  gem 'webrat', '0.7.1'
-  gem 'factory_girl_rails', '1.0'
-end
+#group :test do
+#  gem 'rspec', '2.0.1'
+#  gem 'webrat', '0.7.1'
+#  gem 'factory_girl_rails'
+#end
 
 
 # Bundle edge Rails instead:
